@@ -1,8 +1,5 @@
-def perform_operation(argOne,argTwo,op):
-    num1 = argOne
-    num2 = argTwo
-    operation = op
-    
+def perform_operation (num1,num2,operation):
+
     if operation == 'add':
         return num1 + num2
     elif operation == 'subtract':
