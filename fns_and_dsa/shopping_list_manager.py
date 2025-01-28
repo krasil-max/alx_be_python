@@ -1,6 +1,7 @@
 shopping_list = []
 
-def add_item(item):
+def add_item():
+    item = input("please enter an item:")
     shopping_list.append(item)
     print(f"Item '{item}' added to shopping list.")
 
